@@ -5,8 +5,8 @@
 rel="stylesheet">
 @charset "utf-8";
 
-.h1 {
-text-align: center;
+.main-heading{
+	text-align:center;
 }
 .main-nav{
 	display:block;
