@@ -1,1 +1,30 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+</style>
+rel="stylesheet">
 @charset "utf-8";
+
+.h1 {
+text-align: center;
+}
+.main-nav{
+	display:block;
+	grid-template-columns: 1fr;
+}
+.nav-a {
+    float: left;
+    width: 25%;
+    display: block;
+    font-size: 200%;
+    font-family: brush-script-std;
+    font-style: normal;
+}
+	.sidebar{
+		display: grid;
+		grid-template-columns:repeat(2,1fr)
+	}
+#footer {
+	text-align: center;
+}
+	
