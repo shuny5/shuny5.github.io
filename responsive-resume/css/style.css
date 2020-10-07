@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+style{
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+}
+.resume-name {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	font-size: x-large;
+	text-align: center;
+	align-items: center;
+	background-color:#FFFEBB;
+}
+.grid-area {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	background-color: #FFFA77;
+	font-size: X-Large;
+}
+.flex-about#h2{
+	
+	text-align:center;
+}
+.flex-about{
+	display: flex;
+	flex-wrap:wrap;
+}
+.CM-list > p{
+	background:#eee;
+	padding:1em;
+}
+.CM-list > p:nth-child(odd){
+	background:#ddd;
+}
+.CM-list{
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr 4fr;
+	grid-gap:1em;
+}
+.footer-grid-area {
+    display: grid;
+	grid-template-columns: 50% 50%;
+    font-size: x-small;
+    text-align: center;    background-color: #FFFA77;
+}
+
