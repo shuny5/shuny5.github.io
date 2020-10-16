@@ -1,0 +1,63 @@
+@charset "utf-8";
+@font-face{
+	font-family:'Montserrat';
+	src:url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+	font-weight:400;
+	font-style:normal;
+}
+	@font-face{
+	font-family:'Quicksand';
+	src:url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+	font-weight:400;
+	font-style:normal;
+}
+:root{
+	font-size:30px;
+	--main-font--:'Quicksand', sans-serif;
+	--second-font--:'Montserrat', sans-serif;
+}
+body{
+	background-image: url(https://i.picsum.photos/id/385/5066/3377.jpg?hmac=6j9_jSefMGXEPyS0LUAF-efQ40TiMXZO2t5DUidTnqg);
+	background-repeat:none;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+}
+.social-media-link{
+	padding-right:3%;
+	padding-left:3%;
+	padding-bottom:2%;
+	padding-top:calc(1% - 3px);
+	text-align:right;
+	clip-path:circle(50% at calc(90%-10px));
+}
+.main-heading{
+	position:absolute;
+	width:100%;
+	text-align: center;
+	font-size:--default-title-size--;
+	font-family:var(--main-font--);
+}
+.main-heading ~ p{
+	font-family:var(--second-font);
+}
+@media (min-width:500px){
+	.social-media-link{
+		text-align:center;
+	}
+}
+@media (min-width:1000px){
+		.social-media-link{
+		clip-path: none;
+		background-color:none;
+		text-align: right;
+	}
+}
+
+@media (min-width:1400px){
+	body{
+		background-image: url(https://i.picsum.photos/id/385/5066/3377.jpg?hmac=6j9_jSefMGXEPyS0LUAF-efQ40TiMXZO2t5DUidTnqg);
+		background-position:center;
+		background-blend-mode: color;
+	}
+}
