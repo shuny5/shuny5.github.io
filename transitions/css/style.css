@@ -1,0 +1,59 @@
+@charset "utf-8";
+@font-face{
+	font-family:'Montserrat';
+	src:url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+	font-weight:400;
+	font-style:normal;
+}
+	@font-face{
+	font-family:'Quicksand';
+	src:url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+	font-weight:400;
+	font-style:normal;
+}
+:root{
+	font-size:30px;
+	--main-font--:'Quicksand', sans-serif;
+	--second-font--:'Montserrat', sans-serif;
+}
+.logo img{
+	width:45%;
+	display:block;
+	margin:auto;
+}
+.page-header{
+}
+.social-media-links{
+	display:flex;
+	align-items:center;
+}
+.social-media-links a{
+	display:inline-block;
+	grid-area:social-media-links;
+	padding:3px;
+}
+.account-and-shopping-cart{
+	display:flex;
+	align-items:center;
+	justifycontent:flex-end;
+	grid-area:account-and-shopping-cart;
+}
+.account-and-shopping-cart a{
+	
+}
+.page-footer img{
+    width:5%;
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -2%;
+}
+.page-footer p{
+	text-align:center;
+	font-family:var(--second-font--);
+	font-size:75%
+}
+.address{
+    margin-top:calc(-1% - 3px);
+}
