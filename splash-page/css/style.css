@@ -39,7 +39,7 @@ body{
 	font-family:var(--main-font--);
 }
 .main-heading ~ p{
-	font-family:var(--second-font);
+	font-family:var(--second-font--);
 }
 @media (min-width:500px){
 	.social-media-link{

@@ -1,0 +1,137 @@
+@charset "utf-8";
+@font-face{
+	font-family:'Montserrat';
+	src:url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+	font-weight:400;
+	font-style:normal;
+}
+@font-face{
+	font-family:'Quicksand';
+	src:url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+	font-weight:400;
+	font-style:normal;
+}
+:root{
+	font-size:30px;
+	--main-font: Quicksand, sans-serif;
+	--second-font: Montserrat, sans-serif;
+}
+.header-nav{
+	display:grid;
+	align-items:center;
+}
+.social-media{
+	grid-area:1/0.5/0.5/1;
+	float:left;
+}
+.social-media a{
+	display:inline-block;
+	padding-top:2%;
+	padding-left:2%;
+}
+.search-bar{
+	display:grid;
+	display:flex;
+	height:2rem;
+}
+.serach-icon input[type=text]{
+	float:inherit;
+	border:none;
+}
+.account-and-shopping-cart{
+	display:flex;
+	align-itmes:center;
+	justify-content:flex-end;
+	grid-area:1/1/2/2;
+}
+.acocunt-and-shopping-cart a{
+	padding:10%;
+}
+.main-logo img{
+	width:40%;
+	display:block;
+	margin:auto;
+}
+form{
+	font-size:25px;
+	padding-left:15%;
+	padding-right:15%;
+	padding-top:2%;
+}
+fieldset{
+	text-align:left;
+	padding-left:10%;
+	padding-right:10%;
+		background-color:#DCD6D7;
+}
+label{
+	display:inline-block;
+	float:left;
+	clear:left;
+	width:40%;
+	text-align:left;
+	padding-bottom:0.5%;
+	padding-top:0.5%;
+}
+input{
+	display:inline-block;
+	float:left;
+}
+input[name="comments"]{
+	height:10%;
+}
+input[type=text]{
+	width:59%;
+	height:3%;
+}
+input[type=checkbox]{
+	display:block;
+	float:left;
+}
+.sgnupbtn{
+	width:15%;	
+	background-color:#39AF50;
+}
+.sgnupbtn:hover{
+	background-color:#3B883E;
+}
+.reset{
+	width:15%;
+	background-color:#FF3A3D;
+}.reset:hover{
+	background-color:#FF3538;
+}
+.page-footer{
+	position:relative;
+	bottom:0;
+	text-align:center;
+	width:100%;	
+	padding-top:3%;
+	padding-bottom:0;
+	border-bottom:thick black;
+}
+.footer-nav a{
+	bottom:0;
+	width:100%;
+	font-size:125%;
+	padding:0.25%;
+	padding-right:3%;
+	padding-left:3%;
+	color:black;
+}
+.footer-nav a:hover{
+	background-color:#333333;
+	color:#FBFBFB;
+}
+.page-footer img{
+    width:5%;
+    display: inline-block;
+	margin-bottom:-3%;
+}
+.page-footer p{
+	font-family:var(second-font--);
+	font-size:65%;
+}
+.address{
+	margin-top:calc(-1% - 3px);
+}
