@@ -16,9 +16,10 @@
 	--main-font: Quicksand, sans-serif;
 	--second-font: Montserrat, sans-serif;
 }
-.header-nav{
+.header-bar{
 	display:grid;
 	align-items:center;
+	grid-template-coumns:1fr;
 }
 .social-media{
 	grid-area:1/0.5/0.5/1;
@@ -33,10 +34,6 @@
 	display:grid;
 	display:flex;
 	height:2rem;
-}
-.serach-icon input[type=text]{
-	float:inherit;
-	border:none;
 }
 .account-and-shopping-cart{
 	display:flex;
