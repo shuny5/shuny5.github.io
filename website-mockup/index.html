@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Shun Yamaguchi">
+        <title>Sunset Rentals</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    a:link {
+    text-decoration: none;
+    color: #777777;
+}
+a:visited {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+    body {
+    background-color: #CCCCCC;
+}
+    </style>
+    </head>
+	<body>
+		<header class="page-header">
+			<div class="header-bar">
+				<div class="social-media">
+					<a href="https://line.me/ja/">
+						<img src="images/line.png" alt="line icon" width="50">
+					</a>
+					<a href="https://www.instagram.com/">
+						<img src="images/instagram.png" alt="instagram icon" width="50">
+					</a>
+					<a href="https://twitter.com/">
+						<img src="images/twitter.png" alt="t icon" width="50">
+					</a>
+				</div>
+				<form class="search-bar">
+					<input class = "search box" type = "search"
+						   placeholder="Search..."> 
+					<input class = "serach-icon" type = "image"
+						   src="images/search.png" alt = "search" width="50">
+				</form>
+				<div>
+					<p class ="account-and-shopping-cart">
+						<a href="#">
+							<img src="images/shopping-cart.png" alt="shopping cart icon" width="50">
+						</a>
+						<a href="#">Sign In</a>
+					</p>
+				</div>
+			</div>
+			<div class = "main-logo">
+				<a href = "#">
+					<img src = "images/drawing.svg" alt="logo">
+				</a>
+			</div>
+		</header>
+		<main>
+			<form>
+				<fieldset>
+					<legend>Please fill out the form to complete registeration</legend>
+					<label for="fname">First Name:</label>
+					<input type="text" name="fname"
+					placeholder="First Name" required><br>
+
+					<label for="lname">Last Name:</label>
+					<input type="text" name="lname"
+					placeholder="Last Name" required><br>
+
+					<label for="email">Email:</label>
+					<input type="text" name="email"
+					placeholder="Email Address" required><br>
+					
+					<label for="date">Reservation Date:</label>
+					<input type="date" name="date"><br>
+					
+					<label for="comments">Comments:</label>
+					<input type="text" name="comments" 
+					placeholder="Additonal Information of Visit..." required><br>
+					
+					<label for="terms-privacy">
+						I have read and accept the 
+						<a href="#">Terms of Service</a>
+						and
+						<a href="#">Privacy Statement</a>
+					</label>
+					<input type="checkbox" id="t&c" name="privacy"
+					required><br><br>
+					
+					<input type="button" class="sgnupbtn" value="Submit">
+					<input type="reset" class = "reset" value="Reset"><br>
+				</fieldset>
+			</form>
+			
+		    <footer class = "page-footer">
+				<nav class = "footer-nav">
+			    	<a href>rentals</a>
+				    <a href>location</a>
+				    <a href>hours</a>
+				    <a href>price</a>
+			    </nav>
+				<h1 class = "logo">
+					<a href="index.html">
+						<img src="images/drawing.svg" alt="Sunset Rental Logo">
+					</a>	
+				</h1>
+					<p class = "copyright">
+						© 2020 Sunset Rentals, Inc. All Rights Reserved.
+					</p>
+				<p class = "address">
+					4248 NW Sunnyside Rd, Portland OR 97229
+				</p>
+			</footer>
+		</main>
+    </body>
+</html>

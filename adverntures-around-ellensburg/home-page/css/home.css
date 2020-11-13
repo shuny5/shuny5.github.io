@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+.divider{
+	padding-top:0.75%;
+	padding-bottom:0.75%;
+	text-align:center;
+	background-color:#B3B3B3;
+}
+.divider a{
+	text-align:center;
+	text-decoration:none;
+	font-size:50px;
+	color:#000000;
+} 
+#hiking, #biking, #winter-activities, #other-adventures{
+	min-height:1000px;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	position:relative;
+}
+
+#hiking{
+	background-image:url("../images/Mount Baldy Walking.jpg");
+}
+#biking{
+	background-image:url("../images/Biking Shadow.jpg");
+}
+#winter-activities{
+	background-image:url("../images/Snow Branch.jpg");
+}
+#other-adventures{
+	background-image:url("../images/Leavenworth Town Lights.jpg");
+}
+
+#title{
+    margin: 0 0 0 0;
+    text-align: center;
+    font-size: 120px;
+    padding-top:100px;
+    font-family:"bad-script";
+    font-style:normal;
+    font-weight:400;
+}
+
+.page-footer{
+	font-size:medium;
+	text-align:center;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+}
+
+@media (max-width: 1536px){
+	#title{
+		font-size:115px;
+	}
+	#hiking, #biking, #winter-activities, #other-adventures{
+		min-height:650px;
+	}
+	.divider{
+		padding-top:0.5%;
+		padding-bottom:0.5%;
+	}
+}
+/*@media (max-width: 1536px){
+	#title{
+		font-size:115px;
+	}
+	#hiking, #biking, #winter-activities, #other-adventures{
+		min-height:790px;
+		}
+	.divider{
+		padding-top:0.5%;
+		padding-bottom:0.5%;
+	}
+} Fullscreen Size*/
