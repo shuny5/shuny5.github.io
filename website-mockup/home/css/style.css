@@ -83,7 +83,12 @@ body a:visited{
 	display:block;
 }
 #right-overlay{
-	top:auto;
+	top:0;
+	max-width:500px;
+	max-height:500px;
+	margin-right:50%;
+	margin-left:50%;
+	margin-top:36.5%;
 }
 .overlay{
 	position:absolute;
@@ -151,6 +156,7 @@ body a:visited{
 	text-align:center;
 	width:100%;	
 	padding-top:4%;
+	
 }
 .footer-nav a{
 	width:100%;
@@ -158,6 +164,12 @@ body a:visited{
 	padding:0.25%;
 	padding-right:3%;
 	padding-left:3%;
+	color:black;
+}
+.footer-nav a:visited{
+	color:black;
+}
+.footer-nav a:link{
 	color:black;
 }
 .footer-nav a:hover{
@@ -173,4 +185,29 @@ body a:visited{
 .page-footer p{
 	font-family:var(second-font--);
 	font-size:65%;
+}
+@media(max-width:1000px){
+	.gallery{
+		display:flex;
+		flex-direction:column;
+	}
+	.gallery-1 img{
+		max-width:200px;
+		align-content:space-around;
+	}
+	
+	.image-3{
+		max-width:400px;
+	}
+	.image-4{
+		max-width:400px;
+	}
+}
+	.social-media-link{
+		text-align: left;
+	}
+@media (min-width:1400px){
+	.social-media-link{
+		text-align:right;
+	}
 }

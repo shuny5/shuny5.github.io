@@ -131,3 +131,25 @@ input[type=checkbox]{
 	font-family:var(second-font--);
 	font-size:65%;
 }
+@media (min-width:500px){
+	.social-media-link{
+		text-align:center;
+	}
+	#input{
+		text-align:center;
+	}
+	#label{
+		text-align:center;
+	}
+}
+@media (min-width:1000px){
+	.social-media-link{
+		text-align: left;
+	}
+}
+
+@media (min-width:1400px){
+	.social-media-link{
+		text-align:right;
+	}
+}
