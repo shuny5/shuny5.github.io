@@ -5,26 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Shun Yamaguchi">
         <title>Sunset Rentals</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-    a:link {
-    text-decoration: none;
-    color: #777777;
-}
-a:visited {
-    text-decoration:none;
-}
-a:hover {
-    text-decoration: none;
-}
-a:active {
-    text-decoration: none;
-}
-    body {
-    background-color: #CCCCCC;
-}
-    </style>
-    </head>
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
 	<body>
 		<header class="page-header">
 			<div class="header-bar">
@@ -40,10 +23,8 @@ a:active {
 					</a>
 				</div>
 				<form class="search-bar">
-					<input class = "search box" type = "search"
-						   placeholder="Search..."> 
-					<input class = "serach-icon" type = "image"
-						   src="images/search.png" alt = "search" width="50">
+					<input class = "search-box" type = "search" placeholder="Search..."> 
+					<input class = "serach-icon" type = "image" src="images/search.png" alt = "search" width="50">
 				</form>
 				<div>
 					<p class ="account-and-shopping-cart">
@@ -55,7 +36,7 @@ a:active {
 				</div>
 			</div>
 			<div class = "main-logo">
-				<a href = "#">
+				<a href = "../home/home.html">
 					<img src = "images/drawing.svg" alt="logo">
 				</a>
 			</div>
@@ -79,8 +60,14 @@ a:active {
 					<label for="date">Reservation Date:</label>
 					<input type="date" name="date"><br>
 					
+					<label for="paddle-board-rental">Number of Paddleboard(s):</label>
+					<input type="number" id="pdQuantity" name="pdNum" min="0" max="5" required><br>
+					
+					<label for="canoe-rental">Number of Canoe(s):</label>
+					<input type="number" id="cQuantity" name="cNum" min="0" max="5" required><br>
+					
 					<label for="comments">Comments:</label>
-					<input type="text" name="comments" 
+					<input type="text" name="comments" id="comment"
 					placeholder="Additonal Information of Visit..." required><br>
 					
 					<label for="terms-privacy">
@@ -99,13 +86,13 @@ a:active {
 			
 		    <footer class = "page-footer">
 				<nav class = "footer-nav">
-			    	<a href>rentals</a>
-				    <a href>location</a>
-				    <a href>hours</a>
-				    <a href>price</a>
+			    	<a href="#">rentals</a>
+				    <a href="#">price</a>
+				    <a href="#">hours</a>
+				    <a href="contact.html">contact</a>
 			    </nav>
 				<h1 class = "logo">
-					<a href="index.html">
+					<a href="../index/index.html">
 						<img src="images/drawing.svg" alt="Sunset Rental Logo">
 					</a>	
 				</h1>
