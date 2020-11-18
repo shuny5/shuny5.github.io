@@ -4,11 +4,11 @@ body{
 }
 body a:link{
 	text-decoration:none;
-	color:white;
+	color:black;
 }
 body a:visited{
 	text-decoration:none;
-	color:white;
+	color:black;
 }
 
 .header-bar{
@@ -42,7 +42,7 @@ body a:visited{
 	margin-bottom:auto;
 }
 .serach-icon{
-	margin-top:-4.6px;
+	margin-top:-4px;
 	width:2%;
 }
 .account-and-shopping-cart{
@@ -149,6 +149,7 @@ body a:visited{
 .image-title{
 	font-size:3em;
 	font-weigt:bold;
+	color:white;
 }
 
 .page-footer{
@@ -164,12 +165,6 @@ body a:visited{
 	padding:0.25%;
 	padding-right:3%;
 	padding-left:3%;
-	color:black;
-}
-.footer-nav a:visited{
-	color:black;
-}
-.footer-nav a:link{
 	color:black;
 }
 .footer-nav a:hover{
