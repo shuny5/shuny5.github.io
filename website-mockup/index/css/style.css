@@ -23,8 +23,7 @@ body a:link{
 	position:absolute;
 	width:100%;
 	text-align: center;
-	font-size:--default-title-size;
-	font-family:var(--main-font);
+	font-size:2em;
 }
 .logo img{
 	width:30%;
