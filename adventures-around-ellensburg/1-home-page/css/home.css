@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 .divider{
 	padding-top:0.75%;
 	padding-bottom:0.75%;
@@ -61,16 +60,4 @@
 		padding-top:0.5%;
 		padding-bottom:0.5%;
 	}
-}
-/*@media (max-width: 1536px){
-	#title{
-		font-size:115px;
-	}
-	#hiking, #biking, #winter-activities, #other-adventures{
-		min-height:790px;
-		}
-	.divider{
-		padding-top:0.5%;
-		padding-bottom:0.5%;
-	}
-} Fullscreen Size*/
+} /*Fullscreen Size
